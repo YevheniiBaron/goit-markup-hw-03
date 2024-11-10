@@ -30,7 +30,7 @@ h6,
 p {
   margin: 0;
 }
-.conteiner{
+.container{
   max-width: 1158px;
   padding:0 15px; 
   margin:0 auto;
@@ -40,7 +40,7 @@ p {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc
 }
-.heder-conteiner{
+.heder-container{
 display:flex;
 align-items: center;
 }
