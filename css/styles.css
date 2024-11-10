@@ -4,8 +4,12 @@ body {
   background-color: #FFFFFF;
 }
 
+ 
+
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -16,10 +20,34 @@ p {
   font-weight: 400;
 }
 
+                      /* загальні стилі*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.conteiner{
+  max-width: 1158px;
+  padding:0 15px; 
+  margin:0 auto;
+
+}                                  /*header*/
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc
 }
-
+.heder-conteiner{
+display:flex;
+align-items: center;
+}
+.header-navigation{
+  display:flex;
+  align-items: center;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -28,39 +56,63 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0px;
+  margin-right: 76px ;
 }
-
 .header-logo .header-logo-span {
   color: #2e2f42;
 }
-
-.nav-item>.nav-link {
+                                    /*navigate address*/
+.nav-item .nav-link { display: block;
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
 }
-
+.nav-list{
+  display: flex;
+  align-items:center;
+  gap:40px ;
+  }
+ 
+ 
 .nav-item>.nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+  
 }
+
+ 
 
 .address {
   font-style: normal;
+  margin-left: auto;
+  
 }
 
 .address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
+  display: block;
+    padding: 24px 0;
+  
+  
+}
+.address-list{
+  align-items: center;
+    display: flex;
+    gap: 40px;
 }
 
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
-
+                                  /*hero*/ 
 .hero {
   background-color: #2e2f42;
 }
@@ -88,7 +140,7 @@ p {
 .hero-button:focus {
   background-color: #404bbf;
 }
-
+                                    /*features*/
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +155,7 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+                                  /*team*/
 .team {
   background-color: #F4F4FD;
 }
@@ -137,7 +189,7 @@ p {
   text-align: center;
   color: #434455;
 }
-
+                                  /*portfolio*/
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -145,7 +197,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
+}                              
 
 .project-subtitle {
   font-weight: 500;
@@ -160,7 +212,7 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+                                  /*footer*/
 .footer {
   background-color: #2e2f42;
 }
@@ -174,3 +226,5 @@ p {
   color: #F4F4FD;
   letter-spacing: 0.02em;
 }
+
+
